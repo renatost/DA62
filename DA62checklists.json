@@ -1154,7 +1154,7 @@
           "linkedAlerts": []
         }
       ],
-      "enableGoToNextChecklist": true
+      "enableGoToNextChecklist": false
     }
   ],
   "branchChecklists": [],
