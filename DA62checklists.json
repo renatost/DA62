@@ -576,6 +576,11 @@
               "response": "BALANCED"
             },
             {
+              "text": "Radar",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
               "text": "Aux tanks",
               "type": "Challenge",
               "response": "PREPARE"
