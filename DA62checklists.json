@@ -576,6 +576,11 @@
               "response": "BALANCED"
             },
             {
+              "text": "Radar",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
               "text": "Aux tanks",
               "type": "Challenge",
               "response": "PREPARE"
@@ -1149,7 +1154,7 @@
           "linkedAlerts": []
         }
       ],
-      "enableGoToNextChecklist": false
+      "enableGoToNextChecklist": true
     }
   ],
   "branchChecklists": [],
