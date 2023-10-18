@@ -1,0 +1,1219 @@
+{
+  "version": "1.0",
+  "description": "N272DD 20230930",
+  "customFields": [
+    {
+      "name": "",
+      "value": ""
+    },
+    {
+      "name": "",
+      "value": ""
+    },
+    {
+      "name": "",
+      "value": ""
+    },
+    {
+      "name": "",
+      "value": ""
+    },
+    {
+      "name": "",
+      "value": ""
+    }
+  ],
+  "groups": [
+    {
+      "name": "Normal Procedures",
+      "checklists": [
+        {
+          "name": "Before start",
+          "entries": [
+            {
+              "text": "In reach / PLB",
+              "type": "Challenge",
+              "response": "CLIPPED"
+            },
+            {
+              "text": "Pre flight / Walk around",
+              "type": "Challenge",
+              "response": "DONE"
+            },
+            {
+              "text": "Tow bar",
+              "type": "Challenge",
+              "response": "REMOVED"
+            },
+            {
+              "text": "Chocks / Tie downs",
+              "type": "Challenge",
+              "response": "REMOVED"
+            },
+            {
+              "text": "Covers (pitot / engine...)",
+              "type": "Challenge",
+              "response": "REMOVED"
+            },
+            {
+              "text": "Fuel caps",
+              "type": "Challenge",
+              "response": "CLOSED FORWARD"
+            },
+            {
+              "text": "Passengers",
+              "type": "Challenge",
+              "response": "BRIEFED"
+            },
+            {
+              "text": "Doors",
+              "type": "Challenge",
+              "response": "UNLOCKED / CLOSED"
+            },
+            {
+              "text": "Seats",
+              "type": "Challenge",
+              "response": "UPRIGHT"
+            },
+            {
+              "text": "Seat belts",
+              "type": "Challenge",
+              "response": "FASTENED"
+            },
+            {
+              "text": "Landing gear",
+              "type": "Challenge",
+              "response": "DOWN"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "Alternate static",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "A/C Alternator",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Switches",
+              "type": "Challenge",
+              "response": "ALL OFF"
+            },
+            {
+              "text": "Anti icing",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "ELT",
+              "type": "Challenge",
+              "response": "ARMED"
+            },
+            {
+              "text": "ECU",
+              "type": "Challenge",
+              "response": "AUTO"
+            },
+            {
+              "text": "Alternators",
+              "type": "Challenge",
+              "response": "ON"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Prepare panel",
+          "entries": [
+            {
+              "text": "Navigation DB",
+              "type": "Challenge",
+              "response": "CHECK CURRENT"
+            },
+            {
+              "text": "Fuel totalizer",
+              "type": "Challenge",
+              "response": "SET"
+            },
+            {
+              "text": "Time in service",
+              "type": "Challenge",
+              "response": "NOTE"
+            },
+            {
+              "text": "Gear warning",
+              "type": "Challenge",
+              "response": "TEST"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Engines start",
+          "entries": [
+            {
+              "text": "Current time",
+              "type": "Challenge",
+              "response": "NOTE"
+            },
+            {
+              "text": "Strobe / position lights",
+              "type": "Challenge",
+              "response": "ON"
+            },
+            {
+              "text": "REPEAT LEFT AND RIGHT",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Prop area",
+              "type": "Challenge",
+              "response": "CLEAR"
+            },
+            {
+              "text": "Engine master",
+              "type": "Challenge",
+              "response": "ON"
+            },
+            {
+              "text": "Glow",
+              "type": "Challenge",
+              "response": "WAIT"
+            },
+            {
+              "text": "Starter",
+              "type": "Challenge",
+              "response": "ENGAGE"
+            },
+            {
+              "text": "Oil pressure",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "Alternator",
+              "type": "Challenge",
+              "response": "CHECK ONLINE"
+            },
+            {
+              "text": "CAS Alerts",
+              "type": "Challenge",
+              "response": "NONE"
+            },
+            {
+              "text": "AFTER BOTH ENGINES STARTED",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Avionics",
+              "type": "Challenge",
+              "response": "ON"
+            },
+            {
+              "text": "AP self test",
+              "type": "Challenge",
+              "response": "VERIFY"
+            },
+            {
+              "text": "Circuit breakers",
+              "type": "Challenge",
+              "response": "ALL IN"
+            },
+            {
+              "text": "Fuel selectors",
+              "type": "Challenge",
+              "response": "CROSS FEED"
+            },
+            {
+              "text": "Intercom",
+              "type": "Challenge",
+              "response": "CHECK"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Taxi checklist",
+          "entries": [
+            {
+              "text": "iPad Bluetooth",
+              "type": "Challenge",
+              "response": "CONNECTED"
+            },
+            {
+              "text": "ATIS",
+              "type": "Challenge",
+              "response": "GET"
+            },
+            {
+              "text": "Clearance",
+              "type": "Challenge",
+              "response": "REQUEST"
+            },
+            {
+              "text": "Flight plan",
+              "type": "Challenge",
+              "response": "LOADED"
+            },
+            {
+              "text": "Pitot heat",
+              "type": "Challenge",
+              "response": "TEST"
+            },
+            {
+              "text": "Autopilot",
+              "type": "Challenge",
+              "response": "TEST"
+            },
+            {
+              "text": "Flight director",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Electric trim",
+              "type": "Challenge",
+              "response": "TEST UP/DOWN"
+            },
+            {
+              "text": "Trim",
+              "type": "Challenge",
+              "response": "TAKEOFF"
+            },
+            {
+              "text": "Rudder trim",
+              "type": "Challenge",
+              "response": "CENTERED"
+            },
+            {
+              "text": "HSI",
+              "type": "Challenge",
+              "response": "MATCH w/ COMPASS"
+            },
+            {
+              "text": "AHRS",
+              "type": "Challenge",
+              "response": "BOTH LEVEL"
+            },
+            {
+              "text": "MFD",
+              "type": "Challenge",
+              "response": "TAXI MAP"
+            },
+            {
+              "text": "Terrain display",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Fuel selectors",
+              "type": "Challenge",
+              "response": "NORMAL"
+            },
+            {
+              "text": "Flaps",
+              "type": "Challenge",
+              "response": "CYCLE / TO"
+            },
+            {
+              "text": "Taxi instructions",
+              "type": "Challenge",
+              "response": "REQUEST"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Before takeoff",
+          "entries": [
+            {
+              "text": "Engines",
+              "type": "Challenge",
+              "response": "WARM UP"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "Seat belts",
+              "type": "Challenge",
+              "response": "ON"
+            },
+            {
+              "text": "Doors",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "Windows",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "Baggage doors",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "Fuel selectors",
+              "type": "Challenge",
+              "response": "NORMAL"
+            },
+            {
+              "text": "Circuit breakers",
+              "type": "Challenge",
+              "response": "ALL IN"
+            },
+            {
+              "text": "Lights",
+              "type": "Challenge",
+              "response": "ALL ON"
+            },
+            {
+              "text": "Expected power",
+              "type": "Challenge",
+              "response": "BRIEF"
+            },
+            {
+              "text": "Fuel levels",
+              "type": "Challenge",
+              "response": "BALANCED"
+            },
+            {
+              "text": "Flaps",
+              "type": "Challenge",
+              "response": "T/O"
+            },
+            {
+              "text": "Trim",
+              "type": "Challenge",
+              "response": "TAKEOFF"
+            },
+            {
+              "text": "HDG ALT Bugs",
+              "type": "Challenge",
+              "response": "SET"
+            },
+            {
+              "text": "Climb power altitude",
+              "type": "Challenge",
+              "response": "SET"
+            },
+            {
+              "text": "Altimeter",
+              "type": "Challenge",
+              "response": "CHECK BOTH"
+            },
+            {
+              "text": "Flight director",
+              "type": "Challenge",
+              "response": "FLC 90 + Lateral"
+            },
+            {
+              "text": "Departure alternate",
+              "type": "Challenge",
+              "response": "BRIEF"
+            },
+            {
+              "text": "Takeoff briefing",
+              "type": "Challenge",
+              "response": "DO"
+            },
+            {
+              "text": "O2 Cannulas",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Fuel pumps",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Temperatures",
+              "type": "Challenge",
+              "response": "GREEN"
+            },
+            {
+              "text": "ECU",
+              "type": "Challenge",
+              "response": "CYCLE A/B/AUTO"
+            },
+            {
+              "text": "ECU Test",
+              "type": "Challenge",
+              "response": "HOLD"
+            },
+            {
+              "text": "CAS Alerts",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "Fuel pumps",
+              "type": "Challenge",
+              "response": "ON"
+            },
+            {
+              "text": "Flight controls",
+              "type": "Challenge",
+              "response": "FREE"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Cleared for takeoff",
+          "entries": [
+            {
+              "text": "Wind",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "Pitot heat",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Anti icing",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Radar",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Flow",
+              "type": "Challenge",
+              "response": "TRIM PUMPS GEAR FLAPS LIGHTS"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Climb",
+          "entries": [
+            {
+              "text": "Landing gear",
+              "type": "Challenge",
+              "response": "UP"
+            },
+            {
+              "text": "Flaps",
+              "type": "Challenge",
+              "response": "UP"
+            },
+            {
+              "text": "Pumps",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Power",
+              "type": "Challenge",
+              "response": "MCT"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Pitot heat",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "LNAV",
+              "type": "Challenge",
+              "response": "CHECK"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Cruise",
+          "entries": [
+            {
+              "text": "Power",
+              "type": "Challenge",
+              "response": "75% MAX"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Air conditioning",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Lights",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Fuel",
+              "type": "Challenge",
+              "response": "BALANCED"
+            },
+            {
+              "text": "Aux tanks",
+              "type": "Challenge",
+              "response": "PREPARE"
+            },
+            {
+              "text": "Guard 121.5",
+              "type": "Challenge",
+              "response": "MONITOR"
+            },
+            {
+              "text": "iPad",
+              "type": "Challenge",
+              "response": "CHARGING"
+            },
+            {
+              "text": "Radar",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "LNAV",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "VNAV",
+              "type": "Challenge",
+              "response": "SET"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Descent",
+          "entries": [
+            {
+              "text": "ATIS",
+              "type": "Challenge",
+              "response": "GET"
+            },
+            {
+              "text": "COM2",
+              "type": "Challenge",
+              "response": "TWR GND"
+            },
+            {
+              "text": "Lights",
+              "type": "Challenge",
+              "response": "ALL ON"
+            },
+            {
+              "text": "Gear warning",
+              "type": "Challenge",
+              "response": "TEST"
+            },
+            {
+              "text": "LNAV",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "VNAV",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "Parking brake",
+              "type": "Challenge",
+              "response": "RELEASE"
+            },
+            {
+              "text": "Brakes",
+              "type": "Challenge",
+              "response": "PUMP"
+            },
+            {
+              "text": "Tanks",
+              "type": "Challenge",
+              "response": "BALANCED"
+            },
+            {
+              "text": "Aux tanks",
+              "type": "Challenge",
+              "response": "EMPTY"
+            },
+            {
+              "text": "Seat belts",
+              "type": "Challenge",
+              "response": "FASTENED"
+            },
+            {
+              "text": "Approach",
+              "type": "Challenge",
+              "response": "LOADED / BRIEFED"
+            },
+            {
+              "text": "Minimums",
+              "type": "Challenge",
+              "response": "VERIFY"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Anti icing",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Radar",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "A/C",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Taxi layout",
+              "type": "Challenge",
+              "response": "BRIEF"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Landing",
+          "entries": [
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Rudder trim",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "FINAL CHECK",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Flow",
+              "type": "Challenge",
+              "response": "PUMPS GEAR FLAPS LIGHTS AP"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "After landing",
+          "entries": [
+            {
+              "text": "Radar",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "Pitot heat",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Flaps",
+              "type": "Challenge",
+              "response": "UP"
+            },
+            {
+              "text": "Fuel pumps",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Lights",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Anti icing",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Flight plan",
+              "type": "Challenge",
+              "response": "CLOSE"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Shutdown",
+          "entries": [
+            {
+              "text": "Oxygen",
+              "type": "Challenge",
+              "response": "CLOSED"
+            },
+            {
+              "text": "A/C Alternator",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Parking brake",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Power",
+              "type": "Challenge",
+              "response": "MAX 10% 1 MIN"
+            },
+            {
+              "text": "ELT",
+              "type": "Challenge",
+              "response": "NOT ACTIVE"
+            },
+            {
+              "text": "Avionics",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Lights",
+              "type": "Challenge",
+              "response": "ONLY STROBE"
+            },
+            {
+              "text": "Internal lights",
+              "type": "Challenge",
+              "response": "ALL OFF"
+            },
+            {
+              "text": "Engine masters",
+              "type": "Challenge",
+              "response": "BOTH OFF"
+            },
+            {
+              "text": "Strobes",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Wait for Xs on both engines",
+              "type": "Note",
+              "justification": "indent2"
+            },
+            {
+              "text": "Current time",
+              "type": "Challenge",
+              "response": "NOTE"
+            },
+            {
+              "text": "Time in service",
+              "type": "Challenge",
+              "response": "NOTE"
+            },
+            {
+              "text": "MASTER OFF - GOOD BYE",
+              "type": "Note"
+            }
+          ],
+          "linkedAlerts": []
+        }
+      ],
+      "enableGoToNextChecklist": true
+    },
+    {
+      "name": "Emergency Procedures",
+      "checklists": [
+        {
+          "name": "Engine troubleshooting",
+          "entries": [
+            {
+              "text": "Power lever",
+              "type": "Challenge",
+              "response": "IDLE 1 SECOND"
+            },
+            {
+              "text": "Power lever",
+              "type": "Challenge",
+              "response": "SLOWLY TO 1975 RPM"
+            },
+            {
+              "text": "If engine fails again, maintain maximum possible power",
+              "type": "Note"
+            },
+            {
+              "text": "Circuit breakers",
+              "type": "Challenge",
+              "response": "CHECK"
+            },
+            {
+              "text": "ECU Voter",
+              "type": "Challenge",
+              "response": "CYCLE / AUTO"
+            },
+            {
+              "text": "Above 10,000'",
+              "type": "Challenge",
+              "response": "FUEL PUMP ON"
+            },
+            {
+              "text": "Fuel selector",
+              "type": "Challenge",
+              "response": "CROSS FEED"
+            },
+            {
+              "text": "Alternate air",
+              "type": "Challenge",
+              "response": "OPEN"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Engine failure",
+          "entries": [
+            {
+              "text": "Power good engine",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Airspeed",
+              "type": "Challenge",
+              "response": "> BLUE LINE"
+            },
+            {
+              "text": "Landing gear",
+              "type": "Challenge",
+              "response": "UP"
+            },
+            {
+              "text": "Flaps",
+              "type": "Challenge",
+              "response": "UP"
+            },
+            {
+              "text": "Failed engine",
+              "type": "Challenge",
+              "response": "VERIFY / SECURE"
+            },
+            {
+              "text": "Alternator failed engine",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel pump failed engine",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel selector failed engine",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel balance",
+              "type": "Challenge",
+              "response": "MONITOR"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "7700"
+            },
+            {
+              "text": "Emergency",
+              "type": "Challenge",
+              "response": "DECLARE"
+            },
+            {
+              "text": "LNAV",
+              "type": "Challenge",
+              "response": "DIVERT"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Engines out landing",
+          "entries": [
+            {
+              "text": "Engine masters",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Speed",
+              "type": "Challenge",
+              "response": "BLUE LINE"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "7700"
+            },
+            {
+              "text": "Mayday mayday",
+              "type": "Challenge",
+              "response": "DECLARE"
+            },
+            {
+              "text": "Alternators",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel pumps",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel selectors",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Seat belts",
+              "type": "Challenge",
+              "response": "TIGHT"
+            },
+            {
+              "text": "Flaps",
+              "type": "Challenge",
+              "response": "AS REQD"
+            },
+            {
+              "text": "Gear up",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Electric master",
+              "type": "Challenge",
+              "response": "KEEP ON"
+            },
+            {
+              "text": "Gear down",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Landing gear",
+              "type": "Challenge",
+              "response": "DOWN / LOCKED"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Ditching",
+          "entries": [
+            {
+              "text": "Landing gear",
+              "type": "Challenge",
+              "response": "UP"
+            },
+            {
+              "text": "Engine masters",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "7700"
+            },
+            {
+              "text": "Mayday mayday",
+              "type": "Challenge",
+              "response": "DECLARE"
+            },
+            {
+              "text": "Heavy swell",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Ditch parallel to swell",
+              "type": "Note"
+            },
+            {
+              "text": "Heavy wind",
+              "type": "Subtitle"
+            },
+            {
+              "text": "Ditch into the wind",
+              "type": "Note",
+              "blanksBelow": 1
+            },
+            {
+              "text": "Touch down pitch level",
+              "type": "Warning"
+            },
+            {
+              "text": "Do not flare",
+              "type": "Warning"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "RPM Problems",
+          "entries": [
+            {
+              "text": "Power lever",
+              "type": "Challenge",
+              "response": "SWEEP"
+            },
+            {
+              "text": "ECU Voter",
+              "type": "Challenge",
+              "response": "CYCLE / AUTO"
+            },
+            {
+              "text": "Expect engine failure",
+              "type": "Warning"
+            }
+          ],
+          "linkedAlerts": []
+        },
+        {
+          "name": "Engine fire",
+          "entries": [
+            {
+              "text": "Cabin heat / defrost",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Windows",
+              "type": "Challenge",
+              "response": "OPEN"
+            },
+            {
+              "text": "Power lever",
+              "type": "Challenge",
+              "response": "IDLE"
+            },
+            {
+              "text": "Engine master",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel selector",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Alternator",
+              "type": "Challenge",
+              "response": "OFF"
+            },
+            {
+              "text": "Fuel pump",
+              "type": "Challenge",
+              "response": "OFF"
+            }
+          ],
+          "linkedAlerts": []
+        }
+      ],
+      "enableGoToNextChecklist": false
+    }
+  ],
+  "branchChecklists": [],
+  "entryTypes": [
+    {
+      "name": "Challenge",
+      "color": "white",
+      "fontSize": 15,
+      "interaction": "checkbox"
+    },
+    {
+      "name": "Warning",
+      "color": "yellow",
+      "fontSize": 15,
+      "interaction": "scrollStop"
+    },
+    {
+      "name": "Caution",
+      "color": "white",
+      "fontSize": 15,
+      "interaction": "scrollStop"
+    },
+    {
+      "name": "Note",
+      "color": "silver",
+      "fontSize": 15,
+      "interaction": "scrollStop"
+    },
+    {
+      "name": "Subtitle",
+      "color": "white",
+      "fontSize": 18,
+      "interaction": "noScrollStop"
+    },
+    {
+      "name": "Plain Text",
+      "color": "silver",
+      "fontSize": 15,
+      "interaction": "scrollStop"
+    },
+    {
+      "name": "Link",
+      "color": "cyan",
+      "fontSize": 15,
+      "interaction": "link"
+    },
+    {
+      "name": "Synoptic Link",
+      "color": "cyan",
+      "fontSize": 15,
+      "interaction": "synopticLink"
+    },
+    {
+      "name": "Branch",
+      "color": "cyan",
+      "fontSize": 15,
+      "interaction": "branchParent"
+    }
+  ],
+  "images": [],
+  "a661synoptics": [],
+  "legacySpaceEncoding": false,
+  "defaultChecklist": {
+    "group": 0,
+    "checklist": 1
+  }
+}
