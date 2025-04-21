@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "description": "20231018",
+  "description": "20250418",
   "customFields": [
     {
       "name": "",
@@ -415,7 +415,7 @@
             {
               "text": "Flight director",
               "type": "Challenge",
-              "response": "FLC 90 + Lateral"
+              "response": "FLC 95 + Lateral"
             },
             {
               "text": "Departure alternate",
@@ -512,7 +512,7 @@
             {
               "text": "Landing gear",
               "type": "Challenge",
-              "response": "UP"
+              "response": "UP / LIGHTS OFF"
             },
             {
               "text": "Flaps",
@@ -738,11 +738,6 @@
           "name": "After landing",
           "entries": [
             {
-              "text": "Radar",
-              "type": "Challenge",
-              "response": "OFF"
-            },
-            {
               "text": "Alternate air",
               "type": "Challenge",
               "response": "CLOSED"
@@ -809,11 +804,6 @@
               "response": "NOT ACTIVE"
             },
             {
-              "text": "Avionics",
-              "type": "Challenge",
-              "response": "OFF"
-            },
-            {
               "text": "Lights",
               "type": "Challenge",
               "response": "ONLY STROBE"
@@ -822,6 +812,11 @@
               "text": "Internal lights",
               "type": "Challenge",
               "response": "ALL OFF"
+            },
+            {
+              "text": "Avionics",
+              "type": "Challenge",
+              "response": "OFF"
             },
             {
               "text": "Engine masters",
@@ -1212,6 +1207,12 @@
       "color": "cyan",
       "fontSize": 15,
       "interaction": "branchParent"
+    },
+    {
+      "name": "Sensed",
+      "color": "cyan",
+      "fontSize": 15,
+      "interaction": "checkbox"
     }
   ],
   "images": [],
