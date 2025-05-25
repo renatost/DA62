@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "description": "20250418",
+  "description": "20250525",
   "customFields": [
     {
       "name": "",
@@ -594,11 +594,6 @@
               "text": "iPad",
               "type": "Challenge",
               "response": "CHARGING"
-            },
-            {
-              "text": "Radar",
-              "type": "Challenge",
-              "response": "AS REQD"
             },
             {
               "text": "LNAV",
