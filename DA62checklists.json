@@ -257,6 +257,11 @@
               "response": "REQUEST"
             },
             {
+              "text": "Callsign",
+              "type": "Challenge",
+              "response": "CHECK"
+            },            
+            {
               "text": "Flight plan",
               "type": "Challenge",
               "response": "LOADED"
@@ -808,6 +813,11 @@
               "type": "Challenge",
               "response": "ALL OFF"
             },
+            {
+              "text": "Callsign",
+              "type": "Challenge",
+              "response": "RESET"
+            },            
             {
               "text": "Avionics",
               "type": "Challenge",
