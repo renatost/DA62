@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "description": "20250525",
+  "description": "20260529",
   "customFields": [
     {
       "name": "",
@@ -135,6 +135,11 @@
               "text": "Navigation DB",
               "type": "Challenge",
               "response": "CHECK CURRENT"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "SET FLT ID"
             },
             {
               "text": "Fuel totalizer",
@@ -340,7 +345,7 @@
             {
               "text": "Transponder",
               "type": "Challenge",
-              "response": "CHECK"
+              "response": "CODE / FLT ID"
             },
             {
               "text": "Seat belts",
@@ -832,6 +837,11 @@
               "text": "Current time",
               "type": "Challenge",
               "response": "NOTE"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "CHK FLT ID"
             },
             {
               "text": "Time in service",
