@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "description": "20260517",
+  "description": "20260529",
   "customFields": [
     {
       "name": "",
@@ -837,6 +837,11 @@
               "text": "Current time",
               "type": "Challenge",
               "response": "NOTE"
+            },
+            {
+              "text": "Transponder",
+              "type": "Challenge",
+              "response": "CHK FLT ID"
             },
             {
               "text": "Time in service",
